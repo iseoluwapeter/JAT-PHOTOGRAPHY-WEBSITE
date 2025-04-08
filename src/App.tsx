@@ -3,8 +3,6 @@ import Navbar from "./components/Navbar/Navbar";
 import { Routes, Route } from "react-router-dom";
 const Home = lazy(() => import("./Pages/Home"));
 const OurTeam = lazy(() => import("./Pages/Info"));
-
-
 import Contact from "./Pages/ContactUs";
 import Footer from "./components/Footer";
 import {ToastContainer} from "react-toastify"
