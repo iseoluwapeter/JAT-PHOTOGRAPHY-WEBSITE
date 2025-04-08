@@ -1,7 +1,5 @@
 import { assets } from "../assets/assests";
 import ContactForm from "../components/ContactForm";
-import FormDetais from "../components/FormDetais";
-
 
 const ContactUS = () => {
   return (
@@ -15,11 +13,10 @@ const ContactUS = () => {
         <div className="absolute inset-0 flex items-center justify-center">
           <h1 className="text-white text-4xl font-bold">CONTACT</h1>
         </div>
-
       </div>
-        <ContactForm/>
+      <ContactForm />
     </>
   );
-}
+};
 
 export default ContactUS;
