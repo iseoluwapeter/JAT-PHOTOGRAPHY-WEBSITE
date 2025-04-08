@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+@import "tailwindcss";
+
+*{
+    font-family: Outfit;
+}
+.text_2{
+    font-family: Playfair Display;
+}
+
+.masonry-grid {
+    display: flex;
+    margin-left: -10px;
+    width: auto;
+}
+
+.masonry-grid_column {
+    padding-left: 10px;
+    background-clip: padding-box;
+}
+
+.masonry-item {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+.footer{
+    background-image: url(./assets//marry\ .png);
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
